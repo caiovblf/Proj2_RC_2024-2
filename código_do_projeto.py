@@ -82,7 +82,7 @@ def plot_graph(G):
     layers["e3"] = 2
     layers["e4"] = 2
     for host in hosts:
-        layers[host] =
+        layers[host] = 3
 
     for node, layer in layers.items():
         G.nodes[node]["layer"] = layer
